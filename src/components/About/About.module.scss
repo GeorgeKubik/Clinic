@@ -1,0 +1,72 @@
+@import "../../style/variables.scss";
+
+.wrapper {
+	position: relative;
+	min-height: 333px;
+	background: #f8fbfa;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.description {
+	width: 24%;
+	margin-right: 25px;
+}
+.title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 47px;
+	color: #364844;
+}
+.text {
+	margin-top: 14px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #364844;
+}
+.background {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 66%;
+	height: 100%;
+	object-fit: cover;
+}
+
+@media only screen and (max-width: 1200px) {
+	.title {
+		font-size: 30px;
+		line-height: 35px;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.title {
+		font-size: 28px;
+		line-height: 33px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.wrapper {
+		padding-bottom: 35px;
+		min-height: 288px;
+		flex-direction: column-reverse;
+		justify-content: flex-start;
+		align-items: center;
+	}
+	.description {
+		margin-top: 35px;
+		width: 100%;
+	}
+	.background {
+		position: relative;
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 576px) {
+
+}

@@ -1,0 +1,31 @@
+.wrapperArrow {
+	width: 180px;
+	margin: 39px auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.prev {
+	color: #E1E1E1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	outline: none;
+}
+.next {
+	color: #E1E1E1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	outline: none;
+}
+.currentSlide {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 23px;
+	color: #364844;
+	span {
+		color:#E1E1E1;
+	}
+}
